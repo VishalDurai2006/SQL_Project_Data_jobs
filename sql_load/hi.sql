@@ -1,0 +1,1 @@
+SELECT * FROM datanerd.jobs_2026 LIMIT 10;

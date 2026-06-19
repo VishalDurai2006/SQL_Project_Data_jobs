@@ -1,0 +1,5 @@
+/.venv
+/.vscode
+/all_jobs_2026.csv
+/csv_files
+/parquet_files
