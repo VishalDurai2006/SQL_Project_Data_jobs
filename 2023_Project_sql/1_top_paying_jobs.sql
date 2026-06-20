@@ -13,7 +13,7 @@ WITH ranked_jobs AS (
         job_schedule_type,
         salary_year_avg,
         job_title_short,
-        ROW_NUMBER() OVER (S
+        ROW_NUMBER() OVER (
             PARTITION BY job_title_short
             ORDER BY salary_year_avg DESC
         ) AS rank_num
